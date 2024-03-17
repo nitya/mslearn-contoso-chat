@@ -1,7 +1,7 @@
 ---
-demo:
-    title: 'Demo: Deploying an ARM Template'
-    module: 'Module 1: Exploring Azure Resource Manager'
+lesson:
+    title: 'Introducing: Azure AI Studio'
+    link: 'Lesson 5: Explore Azure AI Studio'
 ---
 
 # Demo: Deploying an ARM Template

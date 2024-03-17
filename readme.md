@@ -1,27 +1,48 @@
-# INF99X: Sample Course
+# Build Contoso Chat E2E with Azure AI Studio : Guided Projects
 
-**Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
+This repo contains the instructions and assets required to support a hands-on workshop or training session to build Contoso Chat - an end-to-end custom copilot application using Azure AI Studio and Prompt flow.
 
-## What are we doing?
+The content is structured as a series of **Guided Project** modules using the Microsoft Learn format for convenience. Guided projects focus help you build a solution to a real-world scenario, step-by-step. Each module is designed to be completed in a single session (30 mins), building on the previous module.
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Microsoft services used in the course. We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs (Microsoft Certified Trainer) to keep the content current with product changes.
 
-- We hope this brings a sense of collaboration to the labs like we have never had before - when a Microsoft service such as Azure or Microsoft 365 changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source. Help your fellow MCTs.
+## 1 | Introduction
 
-## How should I use this repository??
+The workshop targets a real-world application, a customer service chat AI ([Contoso Chat](https://github.com/Azure-Samples/contoso-chat)) that implements a **conversational Q&A chatbot** experience for customers visiting their [Contoso Outdoors](https://github.com/Azure-Samples/contoso-web) website. The application sc
 
-- The instructor materials are your primary source for teaching the course content.
+![End to End story](./Instructions/Media/contoso-web-app.png)
 
-- These files on GitHub are designed to be used in the course labs, which use the hosted lab environment.
+## 2 | Pre-Requisites
 
-- It is recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Microsoft cloud services and get the latest files for their delivery.
+To complete this series of guided projects, you will need:
 
-## What about changes to the student handbook?
+1. An active GitHub account - [Create a free account](https://github.com/signup)
+1. An active Azure subscription - [Create a free account](https://azure.microsoft.com/free/) 
+1. Approved access to Azure Open AI service - [Request access here](https://aka.ms/oaiapply)
 
-- We will review the student handbook on a quarterly basis and update through the normal MOC (Microsoft Official Curriculum) release channels as needed.
+Familiarity with these technologies is desirable. Usage experience is a plus.
+1. Microsoft Azure Fundamentals - [Refresh your knowledge](https://learn.microsoft.com/en-us/training/courses/az-900t00#course-syllabus)
+1. Microsoft Azure AI Fundamentals -  [Refresh your knowledge](https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure)
+1. Microsoft Azure AI Studio (preview) - [Refresh your knowledge](https://learn.microsoft.com/training/paths/create-custom-copilots-ai-studio/)
+1. Using Python & Jupyter Notebooks - [Refresh your knowledge](https://learn.microsoft.com/training/paths/beginner-python/)
 
-## How do I contribute?
+## 3 | Guided Projects
 
-- Any MCT (Microsoft Certified Trainer) can submit a pull request to the code or content in the GitHub repro. Microsoft and the course author will then triage and include content and lab code changes as needed.
+A _guided project_ is a learning module that guides you through a solution to a real-world use case or challenge. The module format typically involves a _preparation_ step (setup) followed a sequence of _exercises_ (tasks) to build that solution block-by-block. This workshop involves **four** guided projects:
 
-- You can submit bugs, changes, improvement, and ideas. Find a new Azure or Microsoft 365 feature before we have? Submit a new demo!
+| Project Goal | Description |
+|---------|-------------|
+| [Setup](./project-1/README.md) | Provision app resources with Azure AI Studio |
+| [Ideation](./project-2/README.md) | Build custom copilot function with Prompt flow |
+| [Iteration](./project-3/README.md) | Evaluate custom copilot for Responsible AI |
+| [Operationalization:](./project-4/README.md) | Deploy copilot API, integrate with chat UI app |
+|||
+
+
+## 4 | Related Resources
+
+
+## 5 | Reporting Issues
+
+If you encounter any issues with the content, please report them by [opening a relevant issue ](https://github.com/nitya/mslearn-contoso-chat/issues/new) in this repository. Please check existing issues to see if the problem has already been reported, to avoid duplication. If so, add any additional information you have as a comment to the existing issue, and track progress there.
+
+

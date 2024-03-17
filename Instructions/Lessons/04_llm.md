@@ -1,28 +1,12 @@
 ---
-lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
-    type: 'Answer Key'
-    module: 'Module 1: Exploring Azure Resource Manager'
+lesson:
+    title: 'Introducing: LLM Ops'
+    link: 'Lesson 4: Understand Paradigm Shift to LLM Ops'
 ---
 
-# Lab: Deploying Azure Resource Manager templates
-# Student lab answer key
+# Demo: Deploying an ARM Template
 
 ## Instructions
-
-### Before you start
-
-#### Setup Task
-
-1. Integer dolor purus, gravida eu sem id, efficitur aliquet neque. 
-
-1. Suspendisse viverra mauris in metus laoreet consectetur. 
-
-1. Sed diam risus, convallis quis condimentum at, egestas malesuada libero. 
-
-### Exercise 0: 
-
-#### Task 0: 
 
 1. Quisque dictum convallis metus, vitae vestibulum turpis dapibus non.
 
@@ -57,7 +41,3 @@ lab:
     - Etiam rutrum pretium enim. 
 
 1. Curabitur in pretium urna, nec ullamcorper diam. 
-
-#### Review
-
-Maecenas fringilla ac purus non tincidunt. Aenean pellentesque velit id suscipit tempus. Cras at ullamcorper odio.
