@@ -4,10 +4,12 @@ lab:
     module: 'Ideation: Define your Contoso Chat Application'
 ---
 
-
 > [!WARNING] ‼️  
 > **Features used in this repository are in preview. Preview versions are provided without a service level agreement, and they are not recommended for production workloads. Certain features might not be supported or might have constrained capabilities. For more information, see [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/).**
 
+# Provision Azure For Contoso Chat
+
+In this exercises, you'll create an Azure AI project and hub resource to build your Contoso Chat AI application, then provision relevant resources and data.
 
 
 ## Lab scenario
